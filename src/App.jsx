@@ -6,6 +6,8 @@ import tremorImg from "./assets/tremor-mouse.jpg";
 import thermalImg from "./assets/thermal-chamber.jpg";
 import handPressVideo from "./assets/hand-press.mp4";
 import rackPinionImg from "./assets/rack-pinion.jpg";
+import RESUME from "./assets/RESUME.pdf";
+
 
 function App() {
   return (
@@ -25,7 +27,7 @@ function App() {
          </h3>
 
          {/* Resume button under name */}
-         <a href="/Luxan_Resume.pdf" download className="resume-btn">
+         <a href="/RESUME" download ="RESUME.pdf" className="resume-btn">
 
            Download Resume
          </a>
